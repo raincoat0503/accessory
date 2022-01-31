@@ -3,9 +3,11 @@
 
 //mixin
 @use './mixin/font';
+@use './mixin/color';
 
 //module
-@use './module/header'
+@use './module/header';
+@use './module/footer';
 
 //page
 
