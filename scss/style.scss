@@ -1,15 +1,17 @@
 //base
-@use './base/reset';
+@import './base/reset';
 
 //mixin
-@use './mixin/font';
-@use './mixin/color';
+@import './mixin/font';
+@import './mixin/color';
+@import './mixin/template';
 
 //module
-@use './module/header';
-@use './module/footer';
+@import './module/header';
+@import './module/footer';
 
 //page
+@import './page/home';
 
 //plugin
 

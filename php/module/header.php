@@ -1,13 +1,12 @@
-<div class="header">
-    <div class="header__logo"><img src="./media/img/module/logo.svg" alt=""></div>
-    <ul class="header__nav navlist">
-        <li class="navlist__item"><a href="#">HOME</a></li>
-        <li class="navlist__item"><a href="#">MEN'S</a></li>
-        <li class="navlist__item"><a href="#">WOMEN'S</a></li>
-        <li class="navlist__item"><a href="#">ABOUT</a></li>
+<nav class="gnav">
+    <ul class="gnav__list">
+        <li class="gnav__item gnav__item-icon gnav__item-logo"><a href="#"><img src="../../media/img/module/logo.svg" alt="logo"></a></li>
+        <li class="gnav__item"><a href="http://localhost:8888/index.php">HOME</a></li>
+        <li class="gnav__item"><a href="http://localhost:8888/php/page/men.php">MEN'S</a></li>
+        <li class="gnav__item"><a href="http://localhost:8888/php/page/women.php">WOMEN'S</a></li>
+        <li class="gnav__item"><a href="http://localhost:8888/php/page/about.php">ABOUT</a></li>
+        <li class="gnav__item"><a href="http://localhost:8888/php/page/contact.php">CONTACT</a></li>
+        <li class="gnav__item gnav__item-icon"><a href="http://localhost:8888/php/page/user.php"><img src="../../media/img/icon/user.svg" alt="user"></a></li>
+        <li class="gnav__item gnav__item-icon"><a href="http://localhost:8888/php/page/cart.php"><img src="../../media/img/icon/bag.svg" alt="bag"></a></li>
     </ul>
-    <div class="icon">
-        <a class="header__icon" href="#"><img src="./media/img/icon/user.svg" alt="user"></a>
-        <a class="header__icon" href="#"><img src="./media/img/icon/bag.svg" alt="bag"></a>
-    </div>
-</div>
+</nav>

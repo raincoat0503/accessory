@@ -1,19 +1,24 @@
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100vw;
-    height: 50px;
-    border-bottom:solid #000 1px;
-    &__logo {
-        width: 100px;
-    }
-    &__nav {
+.gnav{
+    @include halyard_reguler;
+    letter-spacing: 0.13rem;
+    height: 48px;
+    width: 100%;
+    background-color: $black;
+    &__list{
+        height: 100%;
+        width: 50%;
         display: flex;
-        @include font.halyard_book;
+        margin: 0 auto;
+        padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
     }
-    &__icon{
-        width: 20px;
-        height: 20px;
+    &__item{
+        color: $white;
+        font-size: 12px;
+        &-icon{
+            width: 22px;
+            height: 22px;
+        }
     }
 }

@@ -1,0 +1,15 @@
+user
+    id
+    mail
+    name
+        firstname
+        lastname
+    birthday
+    location
+        国
+        市区町村
+        住所
+    point
+        所持ポイント
+    orderlog
+        注文履歴

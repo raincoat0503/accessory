@@ -4,7 +4,8 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-style: solid;
   border-width: 0;
 }
@@ -94,7 +95,8 @@ dd {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -234,13 +236,13 @@ textarea {
 /**
  * Reset radio and checkbox appearance to preserve their look in iOS.
  */
-[type=checkbox] {
+[type="checkbox"] {
   -webkit-appearance: checkbox;
   -moz-appearance: checkbox;
        appearance: checkbox;
 }
 
-[type=radio] {
+[type="radio"] {
   -webkit-appearance: radio;
   -moz-appearance: radio;
        appearance: radio;
@@ -250,16 +252,16 @@ textarea {
  * Correct cursors for clickable elements.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   cursor: pointer;
 }
 
 button:disabled,
-[type=button]:disabled,
-[type=reset]:disabled,
-[type=submit]:disabled {
+[type="button"]:disabled,
+[type="reset"]:disabled,
+[type="submit"]:disabled {
   cursor: default;
 }
 
@@ -311,15 +313,15 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
 /**
  * 1. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   outline-offset: -2px;
   /* 1 */
 }
@@ -327,7 +329,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -398,24 +400,103 @@ th {
   font-weight: bold;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100vw;
-  height: 50px;
-  border-bottom: solid #000 1px;
-}
-.header__logo {
-  width: 100px;
-}
-.header__nav {
-  display: flex;
+.gnav {
   font-family: halyard-display, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.13rem;
+  height: 48px;
+  width: 100%;
+  background-color: #2f2f2f;
 }
-.header__icon {
-  width: 20px;
-  height: 20px;
+
+.gnav__list {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
+.gnav__item {
+  color: #fffaee;
+  font-size: 12px;
+}
+
+.gnav__item-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.hero {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  color: #2f2f2f;
+}
+
+.hero__background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 100%;
+  height: 80%;
+  z-index: -100;
+  overflow: hidden;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.hero__headline {
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: 2rem;
+  padding: 20px 0;
+}
+
+.hero__subline {
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: 0.2rem;
+  padding: 20px 0;
+}
+
+.hero__image img {
+  width: 500px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+
+.hero__link {
+  padding: 0.8rem 2.5rem;
+  border-radius: 2rem;
+  border: solid #38564d 2px;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
