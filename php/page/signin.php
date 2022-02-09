@@ -14,21 +14,23 @@
     <?php include('../module/header.php'); ?>
 
     <!-- maincontent -->
-    <form>
+    <form class="form">
         <!-- userdata -->
-        <label for="fname">NAME:</label><br>
-        <input type="text" maxlength="16" placeholder="First name"><input type="text" maxlength="16" placeholder="Last name"><br>
-        <label for="fname">EMAIL ADDRESS:</label><br>
-        <input type="email"><br>
-        <label for="lname">PASSWORD:</label><br>
-        <input type="password" maxlength="24"><br>
-        <!-- location -->
-        <label for="lname">LOCATION:</label><br>
-        <input type="password" maxlength="24"><br>
-        <label for="lname">CITY:</label><br>
-        <input type="password" maxlength="24"><br>
+        <div class="form__usernamebox">
+            <label>NAME:</label><br>
+            <input class="form__username form__inputbox" type="text" maxlength="16" placeholder="First name">
+            <input class="form__username form__inputbox" type="text" maxlength="16" placeholder="Last name">
+        </div>
+        <div class="form__emailbox">
+            <label>EMAIL ADDRESS:</label><br>
+            <input class="form__email form__inputbox" type="email">
+        </div>
+        <div class="form__passwordbox">
+            <label>PASSWORD:</label>
+            <input class="form__password form__inputbox" type="password" maxlength="24" autocomplete="on">
+        </div>
         <!-- button -->
-        <input type="submit">
+        <input class="form__submit" type="submit">
     </form>
 
     <!-- footer -->

@@ -1,4 +1,4 @@
-//base
+//reset
 @import './base/reset';
 
 //mixin
@@ -6,13 +6,16 @@
 @import './mixin/color';
 @import './mixin/template';
 
+//base
+@import './base/base';
+
 //module
 @import './module/header';
 @import './module/footer';
 
 //page
 @import './page/home';
-@import './page/login'
+@import './page/signin'
 
 //plugin
 
