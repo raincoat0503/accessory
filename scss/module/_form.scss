@@ -15,20 +15,20 @@
     border-radius: 2rem;
     padding: 50px;
     &__title {
-        @include halyard-bold(36px);
+        @include halyard-bold;
         letter-spacing: 0.2em;
     }
     &__box {
         label {
-            @include halyard-book(28px);
+            @include halyard-book;
             letter-spacing: 0.2em;
         }
         input {
-            @include halyard-reguler(20px);
+            @include halyard-reguler;
             letter-spacing: 0.1em;
         }
         textarea{
-            @include halyard-book(18px);
+            @include halyard-book;
             letter-spacing: 0.1em;
         }
     }
@@ -53,7 +53,7 @@
         text-align: center;
         background: $black;
         color: $white;
-        @include halyard-reguler(18px);
+        @include halyard-reguler;
         letter-spacing: 0.2em;
         &:hover {
             background: $blue;
@@ -61,11 +61,12 @@
         }
     }
     &__link {
-        @include halyard-book(18px);
+        @include halyard-book;
         letter-spacing: 0.1em;
         span {
             color: $red;
-            @include halyard-reguler(20px);
+            @include halyard-reguler;
+            font-size: 18px;
             &:hover {
                 color: $blue;
             }

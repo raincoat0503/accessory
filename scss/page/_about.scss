@@ -1,0 +1,22 @@
+.about {
+    height: calc(100vh - 48px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__content{
+        text-align: center;
+    }
+    &__item:first-child {
+        padding-bottom: 6vh;
+    }
+    h2 {
+        @include halyard-bold;
+        font-size: 48px;
+        letter-spacing: 0.2em;
+    }
+    p {
+        @include halyard_reguler;
+        font-size: 36px;
+        letter-spacing: 0.2em;
+    }
+}

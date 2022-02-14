@@ -14,10 +14,18 @@
     <?php include('../module/header.php'); ?>
 
     <!-- maincontent -->
-    <p>TELL</p>
-    <p>0120-000-000</p>
-    <p>MAIL</p>
-    <p>support@accessory.com</p>
+    <div class="about">
+        <div class="about__content">
+            <div class="about__item">
+                <h2>TELL</h2>
+                <p>0120-000-000</p>
+            </div>
+            <div class="about__item">
+                <h2>MAIL</h2>
+                <p>support@accessory.com</p>
+            </div>
+        </div>
+    </div>
 
     <!-- footer -->
     <?php include('../module/footer.php'); ?>

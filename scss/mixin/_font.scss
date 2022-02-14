@@ -1,78 +1,67 @@
 //Halyard Display
-@mixin halyard_extralight($font-size: 12px) {
+@mixin halyard_extralight {
     font-family: halyard-display, sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: $font-size;
 }
-@mixin halyard_book($font-size: 12px) {
+@mixin halyard_book {
     font-family: halyard-display, sans-serif;
     font-weight: 300;
     font-style: normal;
 }
-@mixin halyard_reguler($font-size: 12px) {
+@mixin halyard_reguler {
     font-family: halyard-display, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: $font-size;
 }
-@mixin halyard_bold($font-size: 12px) {
+@mixin halyard_bold {
     font-family: halyard-display, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: $font-size;
 }
 
 //Mrs Eaves
-@mixin eaves_roman($font-size: 12px) {
+@mixin eaves_roman {
     font-family: mrs-eaves, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: $font-size;
 }
-@mixin eaves_bold($font-size: 12px) {
+@mixin eaves_bold {
     font-family: mrs-eaves, serif;
     font-weight: 700;
     font-style: normal;
-    font-size: $font-size;
 }
 
 //源ノ角ゴシック
-@mixin japanesesans_extralight($font-size: 12px) {
+@mixin japanesesans_extralight {
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: $font-size;
 }
-@mixin japanesesans_light($font-size: 12px) {
+@mixin japanesesans_light {
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: $font-size;
 }
-@mixin japanesesans_reguler($font-size: 12px) {
+@mixin japanesesans_reguler {
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: $font-size;
 }
-@mixin japanesesans_bold($font-size: 12px) {
+@mixin japanesesans_bold {
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: $font-size;
 }
 
 //游明朝
-@mixin mincho_reguler($font-size: 12px) {
+@mixin mincho_reguler {
     font-family: yu-mincho-pr6n, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: $font-size;
 }
-@mixin mincho_bold($font-size: 12px) {
+@mixin mincho_bold {
     font-family: yu-mincho-pr6n, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: $font-size;
 }

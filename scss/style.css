@@ -405,6 +405,22 @@ body {
   background-color: #fffaee;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 14px;
+}
+
 .gnav {
   font-family: halyard-display, sans-serif;
   font-weight: 400;
@@ -523,7 +539,6 @@ body {
   font-family: halyard-display, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 36px;
   letter-spacing: 0.2em;
 }
 
@@ -538,7 +553,6 @@ body {
   font-family: halyard-display, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
   letter-spacing: 0.1em;
 }
 
@@ -578,7 +592,6 @@ body {
   font-family: halyard-display, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
   letter-spacing: 0.2em;
 }
 
@@ -599,7 +612,7 @@ body {
   font-family: halyard-display, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .form__link span:hover {
@@ -639,7 +652,6 @@ body {
   font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 40px;
   letter-spacing: 2rem;
   padding: 20px 0;
 }
@@ -648,7 +660,6 @@ body {
   font-family: source-han-sans-japanese, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
   letter-spacing: 0.2rem;
   padding: 20px 0;
 }
@@ -666,6 +677,42 @@ body {
   font-family: source-han-sans-japanese, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+}
+
+.about {
+  height: calc(100vh - 48px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about__content {
+  text-align: center;
+}
+
+.about__item:first-child {
+  padding-bottom: 6vh;
+}
+
+.about h2 {
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  letter-spacing: 0.2em;
+}
+
+.about p {
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  letter-spacing: 0.2em;
 }
 /*# sourceMappingURL=style.css.map */
