@@ -14,24 +14,28 @@
     <?php include('../module/header.php'); ?>
 
     <!-- maincontent -->
-    <form class="form">
-        <!-- userdata -->
-        <div class="form__usernamebox">
-            <label>NAME:</label><br>
-            <input class="form__username form__inputbox" type="text" maxlength="16" placeholder="First name">
-            <input class="form__username form__inputbox" type="text" maxlength="16" placeholder="Last name">
-        </div>
-        <div class="form__emailbox">
-            <label>EMAIL ADDRESS:</label><br>
-            <input class="form__email form__inputbox" type="email">
-        </div>
-        <div class="form__passwordbox">
-            <label>PASSWORD:</label>
-            <input class="form__password form__inputbox" type="password" maxlength="24" autocomplete="on">
-        </div>
-        <!-- button -->
-        <input class="form__submit" type="submit">
-    </form>
+    <div class="signin formbox">
+        <form class="form">
+            <h2 class="form__title">SIGNIN</h2>
+            <!-- userdata -->
+            <div class="form__box form__usernamebox">
+                <label>NAME:</label>
+                <input class="form__username form__inputbox" type="text" maxlength="16" placeholder="First name">
+                <input class="form__username form__inputbox" type="text" maxlength="16" placeholder="Last name">
+            </div>
+            <div class="form__box form__emailbox">
+                <label>EMAIL ADDRESS:</label>
+                <input class="form__email form__inputbox" type="email">
+            </div>
+            <div class="form__box form__passwordbox">
+                <label>PASSWORD:</label>
+                <input class="form__password form__inputbox" type="password" maxlength="24" autocomplete="on">
+            </div>
+            <!-- button -->
+            <input class="form__submit" type="submit" value="SUBMIT">
+            <p class="form__link">Do you have an account?<br><span><a href="http://localhost:8888/php/page/login.php">Log in here</a></span></p>
+        </form>
+    </div>
 
     <!-- footer -->
     <?php include('../module/footer.php'); ?>

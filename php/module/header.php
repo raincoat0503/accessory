@@ -1,6 +1,6 @@
 <nav class="gnav">
     <ul class="gnav__list">
-        <li class="gnav__item gnav__item-js"><a href="#"><img src="../../media/img/module/logo.svg" alt="logo"></a></li>
+        <li class="gnav__item gnav__item-js"><a href="http://localhost:8888/index.php"><img src="../../media/img/module/logo.svg" alt="logo"></a></li>
         <li class="gnav__item gnav__item-js"><a href="http://localhost:8888/index.php">HOME</a></li>
         <li class="gnav__item gnav__item-js"><a href="http://localhost:8888/php/page/men.php">MEN'S</a></li>
         <li class="gnav__item gnav__item-js"><a href="http://localhost:8888/php/page/women.php">WOMEN'S</a></li>

@@ -14,6 +14,10 @@
     <?php include('../module/header.php'); ?>
 
     <!-- maincontent -->
+    <p>TELL</p>
+    <p>0120-000-000</p>
+    <p>MAIL</p>
+    <p>support@accessory.com</p>
 
     <!-- footer -->
     <?php include('../module/footer.php'); ?>

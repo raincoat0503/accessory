@@ -308,6 +308,7 @@ progress {
  */
 textarea {
   overflow: auto;
+  resize: none;
 }
 
 /**
@@ -488,6 +489,123 @@ body {
   display: block;
 }
 
+.formbox {
+  height: calc(100vh - 48px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2f2f2f;
+}
+
+.form {
+  width: 40vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: solid #2f2f2f 2px;
+  border-radius: 2rem;
+  padding: 50px;
+}
+
+.form__title {
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+  letter-spacing: 0.2em;
+}
+
+.form__box label {
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.2em;
+}
+
+.form__box input {
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.form__box textarea {
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+
+.form__inputbox {
+  width: 100%;
+  border-bottom: solid #2f2f2f 1.5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 0;
+  margin-top: 20px;
+}
+
+.form__inputbox:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 0;
+}
+
+.form__massage {
+  height: 15vh;
+}
+
+.form__submit {
+  border: solid #2f2f2f 1px;
+  border-radius: 2rem;
+  padding: 10px 10px;
+  text-align: center;
+  background: #2f2f2f;
+  color: #fffaee;
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+
+.form__submit:hover {
+  background: #38564d;
+  color: #fffaee;
+}
+
+.form__link {
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+
+.form__link span {
+  color: #f38d7f;
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.form__link span:hover {
+  color: #38564d;
+}
+
 .hero {
   width: 70%;
   height: 70%;
@@ -549,42 +667,5 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-}
-
-.form {
-  width: 20vw;
-  height: 30vh;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.form__inputbox {
-  width: 100%;
-  border-bottom: solid #2f2f2f 1px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  outline: 0;
-}
-
-.form__inputbox :focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  outline: 0;
-}
-
-.form__submit {
-  border: solid #2f2f2f 1px;
-  border-radius: 2rem;
-  padding: 10px 10px;
-  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

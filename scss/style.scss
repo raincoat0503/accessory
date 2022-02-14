@@ -12,10 +12,13 @@
 //module
 @import './module/header';
 @import './module/footer';
+@import './module/form';
 
 //page
 @import './page/home';
-@import './page/signin'
+@import './page/contact';
+@import './page/signin';
+@import './page/login';
 
 //plugin
 
